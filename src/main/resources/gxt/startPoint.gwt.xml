@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='startPoint'>
+  <inherits name='com.google.gwt.user.User' />
+  <inherits name='com.google.gwt.junit.JUnit' />
+  <inherits name='com.sencha.gxt.ui.GXT'/>
+  
+  <inherits name='com.sencha.gxt.theme.gray.Gray' />
+  <inherits name="com.google.web.bindery.requestfactory.RequestFactory" />
+  <inherits name='gx.gx_comps'/>
+  
+  <inherits name="com.google.gwt.logging.Logging" />
+  <set-property name="gwt.logging.logLevel" value="ALL" />
+  <set-property name="gwt.logging.enabled" value="FALSE"/>
+
+  <stylesheet src="reset.css" />
+
+  <entry-point class='gxt.client.startPoint' />
+
+  <source path='client' />
+
+</module>
